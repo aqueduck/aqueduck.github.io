@@ -1,0 +1,66 @@
+html, body {
+  background: #20313b;
+  color: #FFF;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif !important;
+  height: 100%;
+}
+
+#logo-container {
+  padding: 75px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.aq-logo {
+  height: 150px;
+  width: auto;
+}
+
+.business-name {
+  color: #FFF;
+  font-size: 3.5em;
+}
+
+.subheader {
+  color: #FFF;
+  font-style: italic;
+  font-weight: 200;
+}
+
+#contact-form {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-text {
+  color: #FFF;
+  display: block;
+}
+
+.form {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-custom {
+  height: 60px;
+  width: 300px;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+.button-custom {
+  background-color: rgba(248,73,70, .7);
+  border: 1px solid rgba(248,73,70, .7);
+  width: 80px;
+  font-size: 1.1em;
+  color: #FFF;
+  font-weight: 600;
+}
+
+.button-custom:hover {
+  background-color: rgba(248,73,70, 1);
+  border: 1px solid rgba(248,73,70, 1);
+}
